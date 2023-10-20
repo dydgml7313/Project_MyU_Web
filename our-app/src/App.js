@@ -1,20 +1,20 @@
-import logo from './main_logo.png';
+import React from 'react';
 import './App.css';
+import Header from './component/common/Header';
+import { Routes,Route } from 'react-router-dom';
+import Footer from './component/common/Footer';
+import Test from './component/common/Test';
+import Asd from './component/common/Asd';
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <div className='App-logo'>
-          <img src={logo} alt='Logo'></img> 
-        </div>
-      </header>
-      <main>
-        <p>This is the main content of my website.</p>
-      </main>
-      <footer>
-        <p>&copy; 2023 Team 모태솔로</p>
-      </footer>
+    <div>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Test />} />
+        <Route path="/login" element={<Asd />} />
+    </Routes>
+        <Footer/>
     </div>
   );
 }
