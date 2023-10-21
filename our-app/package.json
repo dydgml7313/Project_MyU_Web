@@ -10,8 +10,22 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
+    "swiper": "^10.3.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "vite":"^4.0.4"
+  },
+  "license":"MIT",
+  "name": "swiper-react-css-mode",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "start": "vite"
+  },
+  "tags": [
+    "swiper"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "aaa";
+    font-style: normal;
+    font-weight: 100;
+    src: url("../font/BMEULJIROTTF.ttf");
+}
+
+.BMfont {
+    font-family:"aaa" ;
+
+}

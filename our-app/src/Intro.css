@@ -1,0 +1,22 @@
+.banner_container {
+    position: relative;
+    width: 100%;
+
+}
+.image_container {
+    width:100%;
+}
+.image_container img {
+    width: 100%;
+    height:500px;
+}
+.banner_title {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:25%;
+    left:0;
+    color:white;
+}

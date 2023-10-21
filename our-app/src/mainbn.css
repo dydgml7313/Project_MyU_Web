@@ -1,0 +1,28 @@
+.banner_container {
+    position: relative;
+    width: 100%;
+
+}
+.image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* 높이를 설정하거나 필요에 따라 다른 값을 사용하세요 */
+    width:100%;
+}
+.image_container img {
+    display: flex;
+    justify-content: right;
+    width: auto;
+    height:100dp;
+}
+.banner_title {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:25%;
+    left:0;
+    color:white;
+}
